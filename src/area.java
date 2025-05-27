@@ -40,9 +40,9 @@ public class area {
         s3 = in.nextFloat();
         s = (s1 + s2 + s3) / 2;
         area = (float) Math.sqrt(s * (s - s1) * (s - s2) * (s - s3));
-        System.out.printf("The Area of triangle is: %.2f\n", area);
+        System.out.println("The Area of triangle is: " + String.format("%.2f", area));
         peri = s1 + s2 + s3;
-        System.out.printf("The Perimeter is: %.2f", peri);
+        System.out.println("The Perimeter is: " + String.format("%.2f", peri));
         break;
       }
       case 4: {

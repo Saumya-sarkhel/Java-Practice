@@ -9,5 +9,6 @@ public class paisa {
 
     int  paise = (int)Math.round(rs * 100);
     System.out.println("The price in paisa is: %.2f" + paise);
+    in.close();
   }
 }

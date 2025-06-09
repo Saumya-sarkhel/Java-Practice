@@ -13,5 +13,6 @@ public class Oddeven {
     else{
       System.out.println("Number " + num + " is Odd");
     }
+    in.close();
   }
 }

@@ -38,5 +38,6 @@ public class BinarySearch {
     if(flag == -1){
       System.out.println("Value not found.");
     }
+    in.close();
   }
 }

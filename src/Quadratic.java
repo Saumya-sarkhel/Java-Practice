@@ -36,5 +36,6 @@ public class Quadratic {
       double root = -b / (2 * a);
       System.out.println("Root = " + root);
     }
+    in.close();
   }
 }

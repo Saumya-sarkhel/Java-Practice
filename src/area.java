@@ -18,7 +18,7 @@ public class area {
         System.out.println("Area of the Rectangle is: " + Area);
         peri = 2 * (len + wid);
         System.out.println("Perimeter of the rectangle is: " + peri);
-		break;
+		    break;
       }
       case 2: { // Square
         int side, area, peri;
@@ -51,8 +51,10 @@ public class area {
       }
       default: {
         System.out.println("Invalid optinon.");
+        in.close();
         return;
       }
     }
+    in.close();
   }
 }

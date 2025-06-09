@@ -25,5 +25,6 @@ public class GcdLcm {
     int lcm = (n1 * n2) / gcd;
     System.out.println("GCD: "+ gcd);
     System.out.println("LCM: "+ lcm);
+    in.close();
   }
 }

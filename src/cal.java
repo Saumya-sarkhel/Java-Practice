@@ -26,13 +26,16 @@ public class cal{
             result =  num1 / num2;
           } else {
               System.out.println("Division by zero is not allowed.");
+              in.close();
               return;
             }
         case '%': result = num1 % num2;
           break;
         default: System.out.println("Invalid operator.");
+          in.close();
           return;
       }
     System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+    in.close();
   }
 }

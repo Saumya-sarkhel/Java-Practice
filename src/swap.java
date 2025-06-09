@@ -56,8 +56,10 @@ public class swap {
       }
       default:{
         System.out.println("Invalid option.");
+        in.close();
         return;
       }
     }
+    in.close();
   }
 }

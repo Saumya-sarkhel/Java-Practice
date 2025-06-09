@@ -28,7 +28,9 @@ public class temperature {
         System.exit(1);
       }
       default: System.out.println("Invalid Operation");
+        in.close();
         return;
     }
+    in.close();
   }
 }

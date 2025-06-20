@@ -27,3 +27,22 @@ public class PalindromeString {
     in.close();
   }
 }
+
+
+
+// import java.io.*;  // Short Method using BuferReader
+
+// class Palindrome {
+//   public static void main(String[] args) throws IOException {
+//     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//     System.out.print("Enter the string: ");
+//     String str = br.readLine();
+//     String temp = str;
+//     StringBuffer sb = new StringBuffer(str);
+//     sb.reverse();
+//     if (temp.equalsIgnoreCase(str))
+//       System.out.println(temp + " is Palindrome");
+//     else
+//       System.out.println(temp + " is not a Plaindrome.");
+//   }
+// }

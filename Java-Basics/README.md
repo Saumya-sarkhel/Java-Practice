@@ -13,7 +13,7 @@ Each file in this repository demonstrates a key concept of Java programming:
 | Class 1                | A basic Java program to print hello world, **Data types**, and Addition of two numbers with and without user input. |
 | Class 2    | Starting with conditional **loops** and **If-else condition**, **nested if-else** conditions along with **switch case**. |
 | Class 3  | Discussed 1D & 2D **Static and dynamic type array**, also used **Jagged array** and a special type of loop **Enhance for loop** |
-| Class 4       | Upcoming.. |
+| Class 4       | Understand about **Character array**, **Strings**, and concepts about **Objects**. |
 | Class 5          | Upcoming.. |
 
 

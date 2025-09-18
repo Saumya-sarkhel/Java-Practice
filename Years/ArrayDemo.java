@@ -1,7 +1,8 @@
-// Sample:
-// Input: array = {0, 2, 4, 8, 2, 9, 2, 0}; element = 2
-// Output: 3
-// Output: array = {0, 3(2+1), 4, 8, 6(2+4), 9, 8(2+6), 0}.
+/*  Sample:
+    Input: array = {0, 2, 4, 8, 2, 9, 2, 0}; element = 2
+    Output: 3
+    Output: array = {0, 3(2+1), 4, 8, 6(2+4), 9, 8(2+6), 0}.
+*/
 
 import java.util.Scanner;
 

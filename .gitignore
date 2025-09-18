@@ -1,3 +1,6 @@
+*.class
 /bin/
+.project
+.idea
 .vscode
-/lib/
+Practice.iml

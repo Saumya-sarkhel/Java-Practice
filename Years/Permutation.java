@@ -1,3 +1,12 @@
+/*
+
+Write a Java program to print all permutations of a given string of length 3 (repetition not allowed).
+
+Eg. If the given string is ABC then the permutated strings are:
+ABC, ACB, BAC, CBA, CAB, BAC
+
+*/
+
 import java.util.Scanner;
 
 public class Permutation {
@@ -13,7 +22,7 @@ public class Permutation {
             findPermutation(p, s2 + c);
         }
     }
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the String:");
 

@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-public class Vechicle implements FunctionVehicle {
+public class Vehicle implements FunctionVehicle {
     int speed, gear;
 
     public void speedUp(int value) {

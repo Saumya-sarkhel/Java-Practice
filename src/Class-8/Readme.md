@@ -97,7 +97,7 @@ catch (ExceptionType e) {
 **throw** keyword in Java is used to explicitly throw an exception.
 When an exception is thrown using the throw keyword, the execution of the current method is stopped.
 
-syntax-
+**Syntax**:
 ```java
 throw new NullPointerException("Object is null");
 ```
@@ -122,3 +122,17 @@ throw new ArithmeticException("a should not be zero");
 }
 ```
 > **Output**: Exception caught: java.lang.ArithmeticException: a should not be zero
+
+### throws keyword:
+
+**throws** keyword is used in method signatures to indicate that the method may throw certain types of exceptions. but does not handle them directly the caller of the method is responsible for catching and handling the exception.
+
+- Best case to use the throws keyword instead of handling with try and catch:
+
+**Syntax**:
+
+```java
+public void myMethod() throws IOException, SQLException {
+  // Method code that may throw either an IOException or a SQLException
+}
+```

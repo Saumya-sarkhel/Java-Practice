@@ -136,3 +136,9 @@ public void myMethod() throws IOException, SQLException {
   // Method code that may throw either an IOException or a SQLException
 }
 ```
+### Finally Block
+
+The finally block in java is used to put important codes such as clean up code e.g. closing the file or closing the connection. **The finally block executes whether exception rise or not and whether exception handled or not.** A finally contains all the crucial statements regardless of the exception occurs or not.
+
+- use of try with finally without catch (it is possible to use try with finally without catch)
+- try statement can be used along with the finally clause to ensure that a resource is properly closed or released, regardless of whether an exception is thrown or not.

@@ -7,7 +7,7 @@ interface - interface -> extends
 */
 
 interface A {
-    int age;
+    int age = 0;
     void show();
     void run();
 }
@@ -24,7 +24,7 @@ interface Y extends B {
 }
 
 // Multiple interface
-class X implements A,B {
+class X implements A, B {
 
     public void show() {
         System.out.println("show method");

@@ -22,9 +22,10 @@ Each file in this repository demonstrates a key concept of Java programming:
 |   Abstraction          | Abstract class, methods, Use of Interface, Example of Multiple Interface. |
 |   Inheritance          | Type of Inheritance, Single, Multiple, Multilevle etc. |
 |   Encapsulation        | Example od Encapsulation, uses of getter and setter methods, Access modifires. |
-|   Polymorphism         | Example of Polymorphism. Method Overloading, Overriding, Dynamic Method Dispatch with example. |
+|   Polymorphi  sm         | Example of Polymorphism. Method Overloading, Overriding, Dynamic Method Dispatch with example. |
 |   Class 7              | Advanced OOP Features: Type casting, autoboxing & unboxing, wrapper classes, inner classes, abstract classes, and abstract methods. |
 |   Class 8              | Exception Handling: Basics of handling runtime errors using try-catch blocks, throw, throws, and finally. |
+|   Class 9              | Lambda Expression syntax, Creating Threads  |
 
 
 ## 🚀 How to Run
@@ -35,5 +36,4 @@ Make sure you have Java installed. Go to that folder path and open it in termina
 
 javac FileName.java
 java FileName
-
 ```

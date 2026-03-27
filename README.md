@@ -27,6 +27,7 @@ Each file in this repository demonstrates a key concept of Java programming:
 |   Class 8              | Exception Handling: Basics of handling runtime errors using try-catch blocks, throw, throws, and finally. |
 |   Class 9              | Lambda Expression syntax, Creating Threads, Mutation example, Sorting using Collections class, Use of Comparator and Comparable interface and example.  |
 |   Class 10              | Record classes, sealed class and their use, Stream API & how it's works.|
+|   JDBC            | Connect to database, Retrieve, Insert, Update and Delete operation manually and Uisng Prepared Statement.|
 
 
 ## 🚀 How to Run

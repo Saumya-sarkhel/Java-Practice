@@ -7,9 +7,9 @@ Each topic is explained through practical examples, organized class-wise for str
 
 Each file in this repository demonstrates a key concept of Java programming:
 
-`Prograam` folder contains some basic problems.
-`Years` folder have some Adv oops problems.
-`src` folder contains all the programs step by step.
+- `Prograam` folder contains some basic problems.
+- `Years` folder have some Adv oops problems.
+- `src` folder contains all the programs step by step.<br>
 
 |     Folder             | Description                      |
 |------------------------|----------------------------------|
@@ -27,15 +27,4 @@ Each file in this repository demonstrates a key concept of Java programming:
 |   Class 8              | Exception Handling: Basics of handling runtime errors using try-catch blocks, throw, throws, and finally. |
 |   Class 9              | Lambda Expression syntax, Creating Threads, Mutation example, Sorting using Collections class, Use of Comparator and Comparable interface and example.  |
 |   Class 10              | Record classes, sealed class and their use, Stream API & how it's works.|
-|   JDBC            | Connect to database, Retrieve, Insert, Update and Delete operation manually and Uisng Prepared Statement.|
-
-
-## 🚀 How to Run
-
-Make sure you have Java installed. Go to that folder path and open it in terminal then you can compile and run any file using the following commands:
-
-```bash
-
-javac FileName.java
-java FileName
-```
+|   JDBC            | Connect to database, Retrieve, Insert, Update and Delete operation manually and Uisng Prepared Statement. Using MYSQL|

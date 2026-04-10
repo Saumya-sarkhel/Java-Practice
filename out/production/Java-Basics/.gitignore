@@ -1,8 +1,0 @@
-*.class
-/bin/
-.project
-.idea
-.vscode
-Practice.iml
-DSA
-ArraylistEx.java
